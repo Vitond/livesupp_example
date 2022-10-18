@@ -58,5 +58,6 @@ window.addEventListener('LIVESUPP_LOADED', async event => {
             title: "Customer Support"
         }
     }
+    console.log('USING SIGNPOST')
     lsAPI.useSignpost(signPost);
  })

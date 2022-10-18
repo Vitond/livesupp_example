@@ -23,16 +23,16 @@ window.addEventListener('LIVESUPP_LOADED', async event => {
     ];        let choices = [
         {
             label: 'Praha',
-            pageId: 697058,
+            pageId: 115,
         },
         {
             label: 'Brno',
-            pageId: 697059,
+            pageId: 116,
         },
-        {
-            label: 'Ostrava',
-            pageId: 697060,
-        }
+        // {
+        //     label: 'Ostrava',
+        //     pageId: 697060,
+        // }
     ];        let steps = [
         {
             fields: fields,

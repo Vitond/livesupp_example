@@ -1,4 +1,4 @@
-console.log('V3');
+console.log('V4');
 
 window.addEventListener('LIVESUPP_LOADED', async event => {
     const lsAPI = event.detail.api

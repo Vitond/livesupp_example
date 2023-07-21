@@ -72,6 +72,13 @@ const div2 = document.getElementById('div2');
 const div3 = document.getElementById('div3');
 const div4 = document.getElementById('div4');
 
+setTimeout(() => {
+    video1.src = "https://vitond.github.io/livesupp_example/mp4.mp4";
+    video2.src = "https://vitond.github.io/livesupp_example/mp4.mp4";
+    video3.src = "https://vitond.github.io/livesupp_example/mp4.mp4";
+    video4.src = "https://vitond.github.io/livesupp_example/mp4.mp4";
+}, 1000)
+
 // 1 - Classic fullscreen on video
 video1.addEventListener('click', (e) => {e.target.requestFullscreen()});
 
